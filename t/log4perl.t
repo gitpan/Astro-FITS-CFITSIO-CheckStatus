@@ -3,6 +3,8 @@ use Test::More tests => 2;
 use File::Temp;
 use Carp;
 
+use Astro::FITS::CFITSIO;
+
 use_ok( 'Astro::FITS::CFITSIO::CheckStatus' );
 
 SKIP : {

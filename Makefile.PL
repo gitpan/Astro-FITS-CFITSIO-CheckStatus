@@ -6,6 +6,7 @@ WriteMakefile(
     'VERSION_FROM'	=> 'CheckStatus.pm', # finds $VERSION
     'PREREQ_PM'		=> {
 			    Astro::FITS::CFITSIO => 0,
+		            Scalar::Util => 0,
 			   }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'CheckStatus.pm', # retrieve abstract from module
